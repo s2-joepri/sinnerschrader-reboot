@@ -2,6 +2,10 @@
 <html lang="en">
   {% include head %}
   <body class="{{bodyClass}}" data-js-item="{{dataJsItem}}">
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5SDFFH" height="0" width="0" style="display:none;visibility:hidden" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>
+    </noscript>
+
     {{ content }}
   </body>
 </html>
